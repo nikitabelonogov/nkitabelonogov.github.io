@@ -14,7 +14,7 @@ Vue.component('a-button-link', {
 Vue.component('project-card', {
   props: ['id', 'title', 'text', 'status', 'links', 'image', 'tags'],
   template: '' +
-    '<div :id="id" class="m-2 card perspective-card" style="width: 20rem;">\n' +
+    '<div :id="id" class="m-2 perspective-card" style="width: 20rem; display: inline-block;">\n' +
     '    <div v-if="image"' +
     '         class="card-img-top bg-flex-fill" ' +
     '         :style="{ \'background-image\': \'url(\' + image + \')\', height: \'5rem\' }">' +
